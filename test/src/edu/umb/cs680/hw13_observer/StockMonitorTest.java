@@ -5,6 +5,10 @@ import org.junit.jupiter.api.Test;
 
 public class StockMonitorTest {
 
-		// test something
+	@Test
+	public void verifySomething()
+	{
+		// functionality is verified in main()
+	}
 }
 
