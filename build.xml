@@ -7,7 +7,7 @@
   in a shell. 
 -->
 
-<project name="hw13_observer" basedir="."  default="clean">
+<project name="StockPriceObserver" basedir="."  default="clean">
 
 	<property environment="env"/>
     <property name="src" location="src" />
