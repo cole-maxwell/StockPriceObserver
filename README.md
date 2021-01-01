@@ -1,7 +1,11 @@
 # StockPriceObserver
 ---- Program Description ----<br />
 
-The following classes implement java.util.Comparator and can be used to sort file system elements:<br />
+This program separates data processing from data management by implementing a<br />
+many-to-many event notification system. The program relies on java.util.Observable to<br />
+implement StockQuoteObservable and DJIAObservable, which nofify the Obsevers of data changes<br />
+It also relies on java.util.Obsever to implement TableObserver, PieChartObserver, and ThreeDObserver,<br />
+which visualizes three different ways.<br />
 
 ---- Compile & Run ----<br />
 
