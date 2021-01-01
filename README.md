@@ -2,8 +2,8 @@
 ---- Program Description ----<br />
 
 This program separates data processing from data management by implementing a<br />
-many-to-many event notification system for changes in the Stock price. The program relies on java.util.Observable to<br />
-implement StockQuoteObservable and DJIAObservable, which nofify the Obsevers of data changes<br />
+many-to-many event notification system to monitor changes in Stock prices. The program relies on java.util.Observable<br />
+to implement StockQuoteObservable and DJIAObservable, which nofify the Obsevers of data changes<br />
 It also relies on java.util.Obsever to implement TableObserver, PieChartObserver, and ThreeDObserver,<br />
 which visualizes the data in three different ways.<br />
 
